@@ -46,6 +46,7 @@
             // 
             this.openFileDialog.FileName = "openFileDialog";
             this.openFileDialog.Filter = "Text File| *.txt";
+            this.openFileDialog.InitialDirectory = "\\Input";
             this.openFileDialog.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog_FileOk);
             // 
             // Form1
@@ -56,7 +57,7 @@
             this.Controls.Add(this.btnOpen);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "League Manager";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
