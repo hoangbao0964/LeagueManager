@@ -8,5 +8,6 @@ namespace LeagueManager.Core
 {
     class Player
     {
+        string pName;
     }
 }

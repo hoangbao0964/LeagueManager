@@ -8,5 +8,6 @@ namespace LeagueManager.Core
 {
     class Club
     {
+        List<Player> clubs = new List<Player>();
     }
 }
